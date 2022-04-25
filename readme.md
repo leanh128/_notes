@@ -1,5 +1,5 @@
 Auto complete ssh Mac: Add this code into `~./bash_profile`
-````
+```shell
 _complete_ssh_hosts ()
 {
         COMPREPLY=()
@@ -18,5 +18,5 @@ _complete_ssh_hosts ()
         return 0
 }
 complete -F _complete_ssh_hosts ssh
-````
+```
 -----------------------------------------------------------------------------------------------------------------
